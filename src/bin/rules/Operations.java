@@ -34,9 +34,9 @@ public class Operations {
 
     //Группа типов данных
     private final static Token[] typesData = {
-            new TableServiceWords().getElement("int"),
-            new TableServiceWords().getElement("float"),
-            new TableServiceWords().getElement("bool")
+            new TableServiceWords().getElement("%"),
+            new TableServiceWords().getElement("!"),
+            new TableServiceWords().getElement("$")
     };
 
     //Группа логических констант

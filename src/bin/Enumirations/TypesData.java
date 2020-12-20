@@ -3,9 +3,9 @@ package bin.Enumirations;
 public enum TypesData {
     NON_DATA(0,"NON_DATA"),
     NON_DEFINITELY(1,"NON_DEFINITELY"),
-    INT(2,"INT"),
-    FLOAT(3,"FLOAT"),
-    BOOL(4,"BOOL");
+    INT(2,"%"),
+    FLOAT(3,"!"),
+    BOOL(4,"%");
 
     private int index;
     private String nameType;

@@ -11,7 +11,7 @@ import javafx.scene.control.TextArea;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class ControllerSampleAnalyzers implements Initializable{
+public class ControllerSampleAnalyzers implements Initializable {
 
 
     public Button btnAnalyzer;
@@ -28,7 +28,8 @@ public class ControllerSampleAnalyzers implements Initializable{
 
     private TotalInformation totalInformation;
 
-    public ControllerSampleAnalyzers(){}
+    public ControllerSampleAnalyzers() {
+    }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -59,7 +60,6 @@ public class ControllerSampleAnalyzers implements Initializable{
             txtAreaResultAnalysis.setText(e.getMessage());
         }
     }
-
 
 
 }

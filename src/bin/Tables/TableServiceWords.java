@@ -9,23 +9,23 @@ import java.util.List;
 
 public class TableServiceWords implements Tables<Token> {
     private final static Token[] serviceWords= {
-            new Token("begin",  IndicesTables.SERVICE_WORD,0),
-            new Token("end",IndicesTables.SERVICE_WORD,1),
-            new Token("var",TypesData.BOOL,IndicesTables.SERVICE_WORD,2),
-            new Token("int", TypesData.INT,IndicesTables.SERVICE_WORD,3),
-            new Token("float",TypesData.FLOAT,IndicesTables.SERVICE_WORD,4),
-            new Token("bool",TypesData.BOOL,IndicesTables.SERVICE_WORD,5),
+            new Token("{",  IndicesTables.SERVICE_WORD,0),
+            new Token("}",IndicesTables.SERVICE_WORD,1),
+            new Token("dim",TypesData.BOOL,IndicesTables.SERVICE_WORD,2),
+            new Token("%", TypesData.INT,IndicesTables.SERVICE_WORD,3),
+            new Token("!",TypesData.FLOAT,IndicesTables.SERVICE_WORD,4),
+            new Token("$",TypesData.BOOL,IndicesTables.SERVICE_WORD,5),
             new Token("true",TypesData.BOOL,IndicesTables.SERVICE_WORD,6),
             new Token("false",TypesData.BOOL,IndicesTables.SERVICE_WORD,7),
             new Token("if",IndicesTables.SERVICE_WORD,8),
             new Token("then",IndicesTables.SERVICE_WORD,9),
             new Token("else",IndicesTables.SERVICE_WORD,10),
             new Token("for",IndicesTables.SERVICE_WORD,11),
-            new Token("to",IndicesTables.SERVICE_WORD,12),
-            new Token("do",IndicesTables.SERVICE_WORD,13),
-            new Token("while",IndicesTables.SERVICE_WORD,14),
-            new Token("read",IndicesTables.SERVICE_WORD,15),
-            new Token("write",IndicesTables.SERVICE_WORD,16)
+            new Token("loop",IndicesTables.SERVICE_WORD,12),
+            new Token("do_while",IndicesTables.SERVICE_WORD,13),
+            new Token("end_else",IndicesTables.SERVICE_WORD,14),
+            new Token("input",IndicesTables.SERVICE_WORD,15),
+            new Token("output",IndicesTables.SERVICE_WORD,16)
 
     };
 

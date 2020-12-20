@@ -20,7 +20,7 @@ public class TableLimiters implements Tables<Token> {
             new Token("mult",IndicesTables.LIMITERS,9),
             new Token("div",IndicesTables.LIMITERS,10),
             new Token("and",IndicesTables.LIMITERS,11),
-            new Token("ass",IndicesTables.LIMITERS,12),
+            new Token("=",IndicesTables.LIMITERS,12),
             new Token("~",IndicesTables.LIMITERS,13),
             new Token("(",IndicesTables.LIMITERS,14),
             new Token(")",IndicesTables.LIMITERS,15),
@@ -28,7 +28,7 @@ public class TableLimiters implements Tables<Token> {
             new Token(";",IndicesTables.LIMITERS,17),
             new Token(",",IndicesTables.LIMITERS,18),
             new Token(".",IndicesTables.LIMITERS,19),
-            new Token("%",IndicesTables.LIMITERS,19),
+            new Token("let",IndicesTables.LIMITERS,19),
             new Token("\n",IndicesTables.LIMITERS,20)
     };
 
